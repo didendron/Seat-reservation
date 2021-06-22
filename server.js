@@ -20,4 +20,4 @@ app.get('/', function (req, res) {
 //server.use(middlewares);
 //server.use(router);
 
-server.listen(port);
+app.listen(port);
