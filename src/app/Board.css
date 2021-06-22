@@ -1,0 +1,174 @@
+.squares{
+    display:inline-block;
+    
+}
+
+.mycontainer{
+    max-width: 980px;
+    margin:auto;
+}
+
+.square{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    background-color: white;
+    border:1px solid #000;
+}
+.hiddenSquare{
+    width:45px;
+    height: 45px;
+    margin: 10px;
+    background-color: white;
+    border:none;
+}
+.blackSquare{
+    width:45px;
+    height: 45px;
+    margin: 10px;
+    background-color: black;
+    border:1px solid #000;
+}
+.orangeSquare{
+    width:45px;
+    height: 45px;
+    margin: 10px;
+    background-color: orange;
+    border:1px solid #000;
+}
+@media (max-width:1020px){
+    .square{
+        width:40px;
+        height:40px;
+        margin: 5px;
+        background-color: white;
+        border:1px solid #000;
+    }
+    .hiddenSquare{
+        width:40px;
+        height:40px;
+        margin: 5px;
+        background-color: white;
+        border:none;
+       
+    }
+    .blackSquare{
+        width:40px;
+        height:40px;
+        margin: 5px;
+        background-color: black;
+        border:1px solid #000;
+        
+    }
+    .orangeSquare{
+        width:40px;
+        height: 40px;
+        margin: 5px;
+        background-color: orange;
+        border:1px solid #000;
+        
+    }
+}
+@media (max-width:750px){
+    .square{
+        width:30px;
+        height:30px;
+        margin:3px;
+        background-color: white;
+        border:1px solid #000;
+    }
+    .hiddenSquare{
+        width:30px;
+        height:30px;
+        margin: 3px;
+        background-color: white;
+        border:none;
+       
+    }
+    .blackSquare{
+        width:30px;
+        height:30px;
+        margin: 3px;
+        background-color: black;
+        border:1px solid #000;
+        
+    }
+    .orangeSquare{
+        width:30px;
+        height:30px;
+        margin: 3px;
+        background-color: orange;
+        border:1px solid #000;
+        
+    }
+}
+
+@media (max-width:540px){
+    .square{
+        width: 18px;
+        height: 18px;
+        margin: 3px;
+        background-color: white;
+        border:1px solid #000;
+    }
+    .hiddenSquare{
+        width:18px;
+        height: 18px;
+        margin: 3px;
+        background-color: white;
+        border:none;
+       
+    }
+    .blackSquare{
+        width:18px;
+        height: 18px;
+        margin: 3px;
+        background-color: black;
+        border:1px solid #000;
+        
+    }
+    .orangeSquare{
+        width:18px;
+        height: 18px;
+        margin: 3px;
+        background-color: orange;
+        border:1px solid #000;
+        
+    }
+}
+@media (max-width:375px){
+    .square{
+        width: 17px;
+        height: 17px;
+        margin: 2px;
+        background-color: white;
+        border:1px solid #000;
+    }
+    .hiddenSquare{
+        width:17px;
+        height: 17px;
+        margin: 2px;
+        background-color: white;
+        border:none;
+       
+    }
+    .blackSquare{
+        width:17px;
+        height: 17px;
+        margin: 2px;
+        background-color: black;
+        border:1px solid #000;
+        
+    }
+    .orangeSquare{
+        width:17px;
+        height: 17px;
+        margin: 2px;
+        background-color: orange;
+        border:1px solid #000;
+        
+    }
+}
+
+
+
