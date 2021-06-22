@@ -1,7 +1,6 @@
 {
   "name": "zadanie_rekrutacyjne",
   "version": "0.1.0",
-  "private": true,
   "main": "server.js",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
