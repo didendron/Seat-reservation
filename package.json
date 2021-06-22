@@ -24,7 +24,6 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "heroku-postbuild": "npm install",
     "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
