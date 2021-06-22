@@ -25,7 +25,7 @@ const initialState={
 
 export const fetchSeats=createAsyncThunk('seats/fetchSeats',async ()=>{
     
-    const response= await fetch('https://seat-reservation-my-app.herokuapp.com/seats');//http://localhost:5000/seats
+    const response= await fetch('https://seat-reservation-my-app.herokuapp.com/db/seats');//http://localhost:5000/seats
     const data=await response.json();
     
     return data;
